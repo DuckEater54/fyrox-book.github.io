@@ -1,4 +1,10 @@
-cd ../Fyrox
+if exist Fyrox\ (
+  :Build
+) else (
+  git submodules update
+)
+:Build
+cd ./Fyrox
 cargo build
-cd ../fyrox-book.github.io
-mdbook test -L ../Fyrox/target/debug/deps
+cd ..
+mdbook test -L ./Fyrox/target/debug/deps
