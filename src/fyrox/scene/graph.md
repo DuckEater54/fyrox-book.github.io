@@ -14,7 +14,7 @@ There are two ways of adding nodes to the graph, either using _node builders_ or
 
 ### Using node builders
 
-Every node in the engine has its respective builder, which can be used to create an instance of the node. Using
+Every [node](https://en.m.wikipedia.org/wiki/Node_(computer_science)) in the engine has its respective builder, which can be used to create an instance of the node. Using
 builders is a preferable way to create scene nodes. There are following node builders:
 
 1) `BaseBuilder` - creates an instance of base node. See [Base node](./base_node.md) for more info.
