@@ -1,0 +1,3 @@
+[submodule "fyrox"]
+    path = "./fyrox"
+    url = "https://github.com/FyroxEngine/Fyrox"
