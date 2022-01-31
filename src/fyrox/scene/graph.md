@@ -200,3 +200,7 @@ fn remove_preserve_children(scene: &mut Scene, node_to_remove: Handle<Node>) {
 After calling this function, every child node of `node_to_remove` will be detached from it and the `node_to_remove`
 will be deleted. `remove_node` has some limitations: it cannot be used to extract "sub-graph" from the graph, it
 just drops nodes immediately. 
+
+### More information
+
+- *For more information on **nodes** read [here](https://en.m.wikipedia.org/wiki/Node_(computer_science))*
