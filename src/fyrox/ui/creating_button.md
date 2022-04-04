@@ -141,7 +141,7 @@ Add a flag to your Game struct like `exit: bool` and set it in button handler to
 
 # struct Game {
 #    quit_button_handle: Handle<UiNode>,
-    exit: bool,
+   exit: bool,
 # }
 
 impl GameState for Game {
@@ -181,4 +181,3 @@ fn create_button(ui: &mut UserInterface) -> Handle<UiNode> {
 }
 
 ```
-
